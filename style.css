@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    height: 100vh;
+    background-image: url(./images/headerbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+   margin-left: 100px;
+   margin-right: 100px;
+
+}
+.container img{
+    width: 150px;
+    margin-top: 30px;
+}
+.header-text{
+    max-width: 450px;
+    margin-top: 100px;
+}
+.square{
+    width: 12px;
+    height: 12px;
+    background-color: #7FF1E7;
+    display: inline-block;
+    margin: 10px 0;
+}
+.header-text p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.line1{
+    width: 30px;
+    height: 5px;
+    background-color: #7FF1E7;
+    display: inline-block;
+}
+.line2{
+    width: 50px;
+    height: 5px;
+    background-color: #7FF1E7;
+    display: inline-block;
+}
+.line3{
+    width: 70px;
+    height: 5px;
+    background-color: #7FF1E7;
+    display: inline-block;
+}
+.line{
+    line-height: 5px;
+    margin: 10px 0;
+}
+.common-btn{
+    outline: 0;
+    border: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #7FF1E7;
+    color: black;
+    box-shadow: 0 0 5px black;
+}
+.container button{
+    margin: 10px 0;
+}
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    background-color:#7FF1E7 ;
+    transition: .7s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 35px 50px;
+    text-align: left;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: white;
+}
+#menubtn{
+    width: 100px;
+    position: fixed;
+    top: 35px;
+    right: 0;
+}
+#home{
+    margin-top: 120px;
+}
+
+/*About*/
+#about{
+    padding: 100px 0;
+}
+.about-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-left-col, .about-right-col{
+    flex-basis: 50%;
+}
+.about-right-col img{
+    width: 100%;
+}
+.about-text{
+    max-width: 400px;
+    margin: 10px 15px;
+}
+.about-text button{
+    margin-top: 20px;
+}
+
+
+
+/*Features*/
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature-left-col, .feature-right-col{
+    flex-basis: 50%;
+}
+.feature-left-col img{
+    width: 100%;
+}
+.feature-text{
+    max-width: 500px;
+    text-align: right;
+}
+.feature-btn{
+    margin-top: 20px;
+}
+#products{
+    padding: 100px 0;
+}
+.products-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.products-left-col, .products-right-col{
+    flex-basis: 50%;
+}
+.products-right-col img{
+    width: 100%;
+}
+
+.products-left-col{
+    text-align: left;
+}
+.products-text h1{
+    margin-bottom: 40px;
+}
+.products-text h4{
+    margin: 5px 0;
+}
+.products-left-col button{
+    margin-top: 30px;
+}
+/*Contact Section*/
+#contact{
+    padding: 70px 0;
+}
+.contact-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-left-col, .contact-right-col{
+    flex-basis: 50%;
+}
+.contact-left-col img{
+    width: 100%;
+}
+form{
+    max-width: 350px;
+    margin: 10px 0;
+}
+form input{
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #7FF1E7;
+    margin: 10px 0;
+}
+form textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #7FF1E7;
+    padding: 10px 15px;
+    outline: none;
+    margin: 10px 0;
+}
+
+/*Footer Section*/
+.footer{
+    padding: 10px 0;
+    background-color:#7FF1E7 ;
+    border-top: 1px solid black;
+   
+}
+.footer-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer-left-col, .footer-right-col{
+    flex-basis: 50%;
+}
+.footer-right-col{
+    text-align: right;
+    
+}
+
+
+
+
+@media only screen and (max-width:370px){
+    #header{
+        height: 80%;
+        background-image: none;
+        
+    }
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+     
+     }
+
+     .container img{
+        width: 100px;
+        margin-right: -30px;
+    }
+    .header-text{
+        width: 100%;
+        margin-top: 40px;
+    }
+    #menubtn{
+        width: 50px;
+        position: fixed;
+        top: 35px;
+        right: 20px;
+    }
+    #about{
+        padding: 50px 0;
+        margin-top: 10px;
+        
+    }
+   
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+    .about-right-col img{
+        width: 100%;
+    }
+    .about-text{
+        max-width: 400px;
+        margin: 10px 25px;
+    }
+    #features{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .feature-left-col, .feature-right-col{
+        flex-basis: 100%;
+    }
+    
+    .feature-text{
+       margin-right: 20px;
+       margin-top: 20px;
+       text-align: right;
+    }
+   
+    #products{
+        padding: 40px 0;
+    }
+    .products-left-col, .products-right-col{
+        flex-basis: 100%;
+    }
+  
+    .products-left-col button{
+        margin-top: 30px;
+       
+    }
+
+    .contact-left-col, .contact-right-col{
+        flex-basis: 100%;
+    }
+    form{
+        max-width: 90%;
+        margin: 10px 0;
+    }
+ 
+    
+}
+
+
+@media (min-width:371px) and (max-width:768px){
+    #header{
+        height: 60%;
+        background-image: none;
+        
+        
+    }
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+     
+     }
+     .container img{
+        width: 150px;
+    }
+    .header-text{
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    #about{
+        padding: 100px 0;
+       
+        
+    }
+   
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+    .about-right-col img{
+        width: 100%;
+    }
+    .about-text{
+        max-width: 400px;
+        margin: 10px 25px;
+    }
+    #features{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .feature-left-col, .feature-right-col{
+        flex-basis: 100%;
+    }
+    
+    .feature-text{
+       margin-right: 20px;
+       margin-top: 20px;
+        text-align: right;
+    }
+   
+    #products{
+        padding: 40px 0;
+    }
+    .products-left-col, .products-right-col{
+        flex-basis: 100%;
+    }
+   .products-text{
+       margin-left: 30px;
+   }
+    .products-left-col button{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .contact-left-col, .contact-right-col{
+        flex-basis: 90%;
+    }
+    form{
+        max-width: 100%;
+    }
+   
+
+}
+@media (min-width:769px) and (max-width:1024px){
+    #header{
+        height: 70%;
+        background-image: url(./images/headerbg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .container{
+       margin-left: 50px;
+       margin-right: 100px;
+    
+    }
+    .container img{
+        width: 240px;
+    }
+    .header-text{
+        max-width: 300px;
+        margin-top: 50px;
+    }
+  
+    .header-text p{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    
+}
+@media (min-width:1025px){
+    #header{
+        height: 100vh;
+        background-image: url(./images/headerbg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .container{
+       margin-left: 100px;
+       margin-right: 100px;
+    
+    }
+    .container img{
+        width: 150px;
+        margin-top: 30px;
+    }
+    .header-text{
+        max-width: 450px;
+        margin-top: 100px;
+    }
+    
+    .header-text p{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .common-btn{
+        outline: 0;
+        border: 1px solid black;
+        padding: 10px 15px;
+        cursor: pointer;
+        background-color: #7FF1E7;
+        color: black;
+        box-shadow: 0 0 5px black;
+    }
+    .container button{
+        margin: 10px 0;
+    }
+    #sidenav{
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        background-color:#7FF1E7 ;
+        transition: .7s;
+    }
+ 
+    
+  
+    
+    
+
+
+ 
+    
+}
+
+
+
+
